@@ -1,1 +1,38 @@
 
+CREATE TABLE EMPLOYEE (
+    emp_id NUMBER PRIMARY KEY,
+    emp_name VARCHAR(30) NOT NULL,
+    department VARCHAR(30) NOT NULL,
+    salary NUMBER NOT NULL,
+    joining_date DATE
+);
+INSERT INTO EMPLOYEE (emp_id, emp_name, department, salary, joining_date) VALUES
+(1,'RAHUL','HR',25000,DATE '2022-01-10'),
+(2,'ANITA','HR',32000,DATE '2021-05-12'),
+(3,'AMIT','IT',45000,DATE '2020-03-15'),
+(4,'NEHA','IT',38000,DATE '2022-07-20'),
+(5,'ROHAN','SALES',18000,DATE '2023-02-05'),
+(6,'PRIYA','SALES',28000,DATE '2021-11-18'),
+(7,'KARAN','FINANCE',52000,DATE '2019-09-30'),
+(8,'SIMRAN','FINANCE',48000,DATE '2020-12-25');
+SELECT department, COUNT(emp_id) AS TOTAL_EMPLOYEES
+FROM EMPLOYEE
+GROUP BY department;
+SELECT department, SUM(salary) AS TOTAL_SALARY
+FROM EMPLOYEE
+GROUP BY department;
+SELECT department, AVG(salary) AS AVG_SALARY
+FROM EMPLOYEE
+GROUP BY department;
+SELECT department, MIN(salary) AS MIN_SALARY
+FROM EMPLOYEE
+GROUP BY department;
+SELECT department, MAX(salary) AS MAX_SALARY
+FROM EMPLOYEE
+GROUP BY department;
+SELECT department, AVG(salary) AS AVG_SALARY
+FROM EMPLOYEE
+WHERE salary > 20000
+GROUP BY department
+HAVING AVG(salary) > 30000
+ORDER BY AVG_SALARY DESC;
