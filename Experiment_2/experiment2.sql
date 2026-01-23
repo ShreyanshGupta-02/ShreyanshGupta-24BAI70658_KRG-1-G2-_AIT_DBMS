@@ -1,9 +1,9 @@
 
 CREATE TABLE EMPLOYEE (
-    emp_id NUMBER PRIMARY KEY,
+    emp_id INT PRIMARY KEY,
     emp_name VARCHAR(30) NOT NULL,
     department VARCHAR(30) NOT NULL,
-    salary NUMBER NOT NULL,
+    salary INT NOT NULL,
     joining_date DATE
 );
 INSERT INTO EMPLOYEE (emp_id, emp_name, department, salary, joining_date) VALUES
