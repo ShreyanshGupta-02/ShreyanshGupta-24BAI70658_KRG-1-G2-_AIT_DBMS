@@ -15,24 +15,24 @@ INSERT INTO EMPLOYEE (emp_id, emp_name, department, salary, joining_date) VALUES
 (6,'PRIYA','SALES',28000,DATE '2021-11-18'),
 (7,'KARAN','FINANCE',52000,DATE '2019-09-30'),
 (8,'SIMRAN','FINANCE',48000,DATE '2020-12-25');
-SELECT department, COUNT(emp_id) AS TOTAL_EMPLOYEES
+SELECT department, AVG(salary) AS avg_salary
 FROM EMPLOYEE
 GROUP BY department;
-SELECT department, SUM(salary) AS TOTAL_SALARY
+
+SELECT department, AVG(salary) AS avg_salary
 FROM EMPLOYEE
+WHERE salary > 20000
 GROUP BY department;
-SELECT department, AVG(salary) AS AVG_SALARY
+
+SELECT department, AVG(salary) AS avg_salary
 FROM EMPLOYEE
-GROUP BY department;
-SELECT department, MIN(salary) AS MIN_SALARY
-FROM EMPLOYEE
-GROUP BY department;
-SELECT department, MAX(salary) AS MAX_SALARY
-FROM EMPLOYEE
-GROUP BY department;
-SELECT department, AVG(salary) AS AVG_SALARY
+WHERE salary > 20000
+GROUP BY department
+HAVING AVG(salary) > 30000;
+
+SELECT department, AVG(salary) AS avg_salary
 FROM EMPLOYEE
 WHERE salary > 20000
 GROUP BY department
 HAVING AVG(salary) > 30000
-ORDER BY AVG_SALARY DESC;
+ORDER BY avg_salary DESC;
