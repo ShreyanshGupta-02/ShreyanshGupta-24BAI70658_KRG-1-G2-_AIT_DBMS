@@ -1,7 +1,7 @@
 DO $$
 DECLARE
     emp_id        INTEGER := 102;
-    emp_name      VARCHAR(50) := 'Aryan Dahiya';
+    emp_name      VARCHAR(50) := 'Shreyansh Gupta';
     emp_salary    NUMERIC := 45000;
     bonus_amount  NUMERIC;
     new_salary    NUMERIC;
