@@ -36,3 +36,13 @@ WHERE salary > 20000
 GROUP BY department
 HAVING AVG(salary) > 30000
 ORDER BY avg_salary DESC;
+
+SELECT department,
+COUNT(emp_id) AS total_employees,
+SUM(salary) AS total_salary,
+AVG(salary) AS avg_salary,
+MIN(salary) AS min_salary,
+MAX(salary) AS max_salary
+FROM employee
+GROUP BY department 
+ORDER BY department;
