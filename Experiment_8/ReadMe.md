@@ -56,19 +56,20 @@ Organizations often require flexible reporting mechanisms to analyze workforce d
 ### Step-wise Output
 
 **Step 1 – Create Employee Table**  
-![Employee Table Creation](ScreenShots/s1.png)
+<img width="1417" height="920" alt="s1" src="https://github.com/user-attachments/assets/9339ebd5-568b-4907-ad75-91f952af5cf6" />
+
 
 **Step 2 – Insert Sample Data**  
-![Insert Sample Data](ScreenShots/s2.png)
+<img width="1503" height="1264" alt="s2" src="https://github.com/user-attachments/assets/a79e7535-6f56-4a94-a00e-0179bc9d744a" />
 
 **Step 3 – Create Stored Procedure**  
-![Create Stored Procedure](ScreenShots/s3.png)
+<img width="1389" height="1076" alt="s3" src="https://github.com/user-attachments/assets/4b25e51d-d948-4f62-aa0b-ad707f07b4b1" />
 
 **Step 4 – Execute Stored Procedure**  
-![Execute Stored Procedure](ScreenShots/s4.png)
+<img width="1537" height="1029" alt="s4" src="https://github.com/user-attachments/assets/7633ea79-78fd-446d-854b-bf0eecb7654f" />
 
 **Step 5 – Display Output**  
-![Display Output](ScreenShots/s5.png)
+<img width="1452" height="984" alt="s5" src="https://github.com/user-attachments/assets/28c65b08-a178-44eb-b0e2-4eff55365316" />
 
 ## Learning Outcome
 After completing this experiment, the learner will be able to:
