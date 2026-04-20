@@ -67,18 +67,19 @@ Table: employee (id, name, gender, salary)
 ## Step-wise Output  
 
 ### Step 1 – Create Employee Table  
-![Employee Table Creation](Screenshots/s1.png)
+<img width="1459" height="970" alt="s1" src="https://github.com/user-attachments/assets/f2d94429-262c-4d10-997b-33c1502bd91f" />
 
 ### Step 2 – Insert Sample Data  
-![Insert Sample Data](Screenshots/s2.png)
+<img width="1470" height="1093" alt="s2" src="https://github.com/user-attachments/assets/532f14e7-ae06-41f2-9a61-8224f767d188" />
 
 ### Step 3 – Create Package Specification  
-![Create Package Specification](Screenshots/s3.png)
+<img width="1509" height="962" alt="s3" src="https://github.com/user-attachments/assets/cd742e13-a92f-49eb-9bd2-f41ccb2fea06" />
+
 ### Step 4 – Create Package Body  
-![Create Package Body](Screenshots/s4.png)
+<img width="1354" height="1078" alt="s4" src="https://github.com/user-attachments/assets/428fe241-7b4c-4ed8-8295-2da553923a05" />
 
 ### Step 5 – Execute Package Procedure  
-![Execute Package Procedure](Screenshots/s5.png)
+<img width="1531" height="802" alt="s5" src="https://github.com/user-attachments/assets/2d98750f-91c9-4c62-8a17-cc71398cf33e" />
 
 ---
 
