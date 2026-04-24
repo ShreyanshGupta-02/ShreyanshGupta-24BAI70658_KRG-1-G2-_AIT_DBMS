@@ -117,8 +117,6 @@ After completing this experiment, the learner will be able to:
 
 - Understand the working of database triggers  
 - Implement automatic primary key generation
-- Ensure data integrity without manual key assignment.
-- Apply trigger-based automation in real-world enterprise applications such as Amazon, Flipkart, and Oracle.
 - Ensure data integrity without manual intervention  
 - Apply trigger-based solutions in enterprise applications  
 - Develop efficient and reliable database systems  
